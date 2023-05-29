@@ -14,10 +14,8 @@ header {
 .menu {
     font-size: 25px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    text-align: center;
     align-items: center;
     background-color: #F1C73F;
     width: 60%;
@@ -34,6 +32,11 @@ header {
     justify-content: center;
     width: 100%;
     height: 350px;
+}
+
+.pink-section {
+    width: 50%;
+    background-color: #EF5D98;
 }
 
 
@@ -73,6 +76,16 @@ header {
     height: 642px;
 }
 
+.red-section {
+    width: 20%;
+    background-color: #ED4530;
+}
+
+.blu-section {
+    width: 40%;
+    background-color: #04366D;
+}
+
 .section4 {
     padding: 100px;
     background-color: #D3D3D3;
@@ -85,23 +98,8 @@ header {
     height: 1000px;
 }
 
-.pink-section {
-    width: 40%;
-    background-color: #EF5D98;
-}
-
-.red-section {
-    width: 20%;
-    background-color: #ED4530;
-}
-
-.blu-section {
-    width: 40%;
-    background-color: #04366D;
-}
-
 .green-section {
-    width: 63%;
+    width: 60%;
     background-color: #218B22;
 }
 
@@ -123,26 +121,11 @@ header {
     background-color: #F08080;
 }
 
-.section02 {
-    width: 12%;
-    background-color: #21B2AA;
-    margin: 0.5px;
-}
-
-.section03 {
-    width: 12%;
-    background-color: #21B2AA;
-    margin: 0.5px;
-}
-
-.section04 {
-    width: 12%;
-    background-color: #21B2AA;
-    margin: 0.5px;
-}
-
+.section02,
+.section03,
+.section04,
 .section05 {
-    width: 12%;
+    width: 10%;
     background-color: #21B2AA;
     margin: 0.5px;
 }
@@ -156,10 +139,8 @@ header {
 
 .sub-footer2 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    text-align: center;
     align-items: center;
     background-color: #80FCD4;
     width: 60%;
@@ -168,14 +149,7 @@ header {
 
 .sub-footer2 button {
     font-size: 30px;
+    font-weight: lighter;
     border-radius: 5px;
     background-color: #FFB6C1;
 }
-
-
-
-
-
-
-
-
